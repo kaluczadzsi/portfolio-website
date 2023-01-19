@@ -71,6 +71,15 @@ input[class^=btn-]:hover {
   margin: 4rem 0;
 }
 
+.section-title {
+  font-size: 2rem;
+  display: block;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
 .bottom-line {
   height: 2px;
   width: 3rem;
@@ -155,6 +164,9 @@ img {
   font-size: 4rem;
   line-height: 1.2;
 }
+#home {
+  /* Home Section C */
+}
 #home-a .specials {
   margin-top: 3rem;
   display: grid;
@@ -187,4 +199,10 @@ img {
 }
 #home-b .stats div:nth-child(even) {
   background-color: #ccc;
+}
+#home-c .process {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
