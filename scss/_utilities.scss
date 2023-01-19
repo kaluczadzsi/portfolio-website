@@ -92,4 +92,9 @@ input[class^='btn-']:hover {
 }
 
 .bottom-line {
+  height: 2px;
+  width: 3rem;
+  background-color: $main-color;
+  display: block;
+  margin: 0 auto 1rem auto;
 }
