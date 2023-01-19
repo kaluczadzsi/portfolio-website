@@ -152,6 +152,37 @@ img {
       grid-template-columns: repeat(4, 1fr);
       gap: 1.5rem;
       text-align: center;
+
+      // process step
+      &-step {
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 28px;
+        background-color: $main-color;
+        border-radius: 50%;
+        height: 15px;
+        width: 15px;
+        line-height: 15px;
+        padding: 1rem;
+        transition: all 1s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      // process icon
+      &-icon {
+        border-radius: 50%;
+        background-color: $dark-color;
+        color: #fff;
+        padding: 2rem;
+        height: 70px;
+        width: 70px;
+        line-height: 70px;
+        position: relative;
+        transition: all 1s;
+      }
     }
   }
 }

@@ -205,4 +205,31 @@ img {
   grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
   text-align: center;
+}
+#home-c .process-step {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 28px;
+  background-color: #ffbc00;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  line-height: 15px;
+  padding: 1rem;
+  transition: all 1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#home-c .process-icon {
+  border-radius: 50%;
+  background-color: #333;
+  color: #fff;
+  padding: 2rem;
+  height: 70px;
+  width: 70px;
+  line-height: 70px;
+  position: relative;
+  transition: all 1s;
 }/*# sourceMappingURL=style.css.map */
