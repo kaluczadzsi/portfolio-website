@@ -5,6 +5,10 @@
   overflow: hidden;
 }
 
+.text-center {
+  text-align: center;
+}
+
 // Buttons
 %btn-shared {
   display: inline-block;
@@ -47,4 +51,23 @@ input[class^='btn-']:hover {
 
 .text-center {
   text-align: center;
+}
+
+// Padding
+.py {
+  &-1 {
+    padding: 1rem 0;
+  }
+
+  &-2 {
+    padding: 2rem 0;
+  }
+
+  &-3 {
+    padding: 3rem 0;
+  }
+
+  &-4 {
+    padding: 4rem 0;
+  }
 }
