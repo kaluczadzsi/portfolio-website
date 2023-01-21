@@ -93,7 +93,7 @@ img {
 
   // Header inner
   &-inner {
-    background: $bg-image no-repeat 20% 30%;
+    background: $bg-image no-repeat 20% 30% / cover;
     height: 5.5rem;
     border-bottom: 3px solid $main-color;
   }
@@ -395,3 +395,5 @@ img {
     }
   }
 }
+
+@import 'media';
